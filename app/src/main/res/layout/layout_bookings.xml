@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/forest_green"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/show_booking_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="BookingID"
+            android:layout_alignParentEnd="true"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:id="@+id/show_booking_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_alignParentEnd="true"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/show_booking_id"/>
+
+        <TextView
+            android:id="@+id/show_booking_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time"
+            android:layout_alignParentEnd="true"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/show_booking_date"/>
+
+        <TextView
+            android:id="@+id/show_booking_room_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room Number"
+            android:layout_alignParentEnd="true"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/show_booking_time"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

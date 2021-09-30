@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "975895783511",
+    "firebase_url": "https://number-login-d3626-default-rtdb.firebaseio.com",
+    "project_id": "number-login-d3626",
+    "storage_bucket": "number-login-d3626.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975895783511:android:5115ecfccb716785d99b12",
+        "android_client_info": {
+          "package_name": "com.sklabs.hotelcheckin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975895783511-uvg5qpkriif90pa6ptcfqoo4mi6u038j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sklabs.hotelcheckin",
+            "certificate_hash": "c998860e68fa155b2b94dfa1468f886617b539c7"
+          }
+        },
+        {
+          "client_id": "975895783511-alkrjilj0ai0n3n8u8m8di4c8m2hu5bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC60-dF0q2Kc_7nuxBXBi-pb-Mo9VVgSkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975895783511-alkrjilj0ai0n3n8u8m8di4c8m2hu5bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975895783511:android:15ccbd450eed9d80d99b12",
+        "android_client_info": {
+          "package_name": "com.sklabs.hotelselfchechinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975895783511-e98ovp45c2gacll93qgkl0mghiahjjca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sklabs.hotelselfchechinapp",
+            "certificate_hash": "c998860e68fa155b2b94dfa1468f886617b539c7"
+          }
+        },
+        {
+          "client_id": "975895783511-alkrjilj0ai0n3n8u8m8di4c8m2hu5bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC60-dF0q2Kc_7nuxBXBi-pb-Mo9VVgSkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975895783511-alkrjilj0ai0n3n8u8m8di4c8m2hu5bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975895783511:android:cb0cf261bcc8b1dad99b12",
+        "android_client_info": {
+          "package_name": "com.sklabs.numberlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975895783511-iasuev8og0b5g4obb9ov51p775shf4i3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sklabs.numberlogin",
+            "certificate_hash": "c998860e68fa155b2b94dfa1468f886617b539c7"
+          }
+        },
+        {
+          "client_id": "975895783511-alkrjilj0ai0n3n8u8m8di4c8m2hu5bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC60-dF0q2Kc_7nuxBXBi-pb-Mo9VVgSkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975895783511-alkrjilj0ai0n3n8u8m8di4c8m2hu5bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

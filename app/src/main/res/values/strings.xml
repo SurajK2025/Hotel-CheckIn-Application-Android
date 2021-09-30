@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hotel Check In</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="number">Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login_page_intent">Already Have A Account! Click Here To LogIn</string>
+    <string name="please_login">Please LogIn</string>
+    <string name="signin_page_intent">Dont Have A Account! Click Here To SignUp</string>
+    <string name="login">LogIn</string>
+    <string name="reserve_a_table">You can also reserve a table</string>
+    <string name="doubleBed">2.Double Bed</string>
+    <string name="singleBed">1.King-size Single Bed</string>
+    <string name="selectRoom">Select One of the Room Type</string>
+    <string name="suite">3.Book a Suite</string>
+    <string name="otp_verification">Mobile Number Verification</string>
+    <string name="validate_otp">Please validate the OTP sent to your registered mobile number to confirm booking.</string>
+    <string name="validate_button">Validate</string>
+    <string name="zero">0</string>
+    <string name="didnt_receive_otp">Didnt receive OTP?</string>
+    <string name="resend_otp">  Resend OTP</string>
+    <string name="booking_history">Booking History</string>
+    <string name="logout">LogOut</string>
+    <string name="make_booking">Make Booking</string>
+    <string name="total_bookings">Total Bookings:</string>
+    <string name="booking_confirmation_msg">Booking has been confirmed. Your room number is:</string>
+    <string name="rooms_unavailable">Oops! Looks like all rooms of selected type are booked.</string>
+</resources>

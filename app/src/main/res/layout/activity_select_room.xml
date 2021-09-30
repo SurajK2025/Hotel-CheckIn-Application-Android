@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".SelectRoom">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/selectRoomTextView"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/selectRoom"
+                android:textColor="#F2D16B"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/singleBedTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/singleBed"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/singleBedImageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/bed" />
+
+            <TextView
+                android:id="@+id/doubleBedTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/doubleBed" />
+
+            <ImageView
+                android:id="@+id/doubleBedImageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/doublebed" />
+
+            <TextView
+                android:id="@+id/suiteTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/suite" />
+
+            <ImageView
+                android:id="@+id/suiteImageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/suite" />
+
+            <TextView
+                android:id="@+id/reserve_a_table"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:text="@string/reserve_a_table"
+                android:textColor="#F2D16B"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:id="@+id/reservedImageView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/reserved" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
